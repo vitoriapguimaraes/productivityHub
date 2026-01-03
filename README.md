@@ -11,6 +11,8 @@
 - **🔗 Unificador de PDFs**: Combinação simples e rápida de múltiplos arquivos PDF em um único documento.
 - **🖼️ Conversor de PDF para Imagem**: Transformação de páginas de PDF em imagens (PNG/JPEG) com ajuste de resolução.
 - **🎤 Transcritor de Áudio e Resumo**: Transcrição de arquivos de áudio utilizando o modelo Whisper da OpenAI e geração de resumos inteligentes com GPT-4o.
+- **📚 Histórico de Leitura**: Dashboard completo para gestão de livros, com análise de dados, IA (Groq) e mural de capas.
+- **🖼️ Redimensionador de Imagens**: Ferramenta prática para redimensionamento em lote (Batch Resize).
 
 ## Tecnologias Utilizadas
 
@@ -18,7 +20,8 @@
 - **Linguagem**: [Python](https://www.python.org/)
 - **Manipulação de PDF**: [PyPDF2](https://pypi.org/project/PyPDF2/), [PyMuPDF (fitz)](https://pymupdf.readthedocs.io/)
 - **Processamento de Imagem**: [Pillow](https://python-pillow.org/)
-- **Inteligência Artificial**: [OpenAI API](https://platform.openai.com/)
+- **Inteligência Artificial**: [OpenAI API](https://platform.openai.com/), [Groq API](https://groq.com/)
+- **Dados & Visualização**: [Pandas](https://pandas.pydata.org/), [Plotly](https://plotly.com/)
 - **Gerenciamento de Ambiente**: [python-dotenv](https://pypi.org/project/python-dotenv/)
 
 ## Como Executar
@@ -44,9 +47,10 @@
    ```
 
 4. **Configure as Variáveis de Ambiente:**
-   Crie um arquivo `.env` na raiz do projeto e adicione sua chave da OpenAI (necessária para o Transcritor):
+   Crie um arquivo `.env` na raiz do projeto e adicione suas chaves:
    ```
-   OPENAI_API_KEY=sua-chave-aqui
+   OPENAI_API_KEY=sua-chave-openai
+   GROQ_API_KEY=sua-chave-groq
    ```
 
 5. **Execute o projeto:**
@@ -68,12 +72,17 @@
 ├── requirements.txt    # Dependências do projeto
 ├── README.md           # Documentação
 ├── app.py              # Ponto de entrada da aplicação
+├── assets/             # Recursos estáticos (capas, dados)
+├── utils/              # Módulos utilitários
+│   └── library_manager.py # Lógica do histórico de leitura
 └── pages/              # Páginas individuais das ferramentas
     ├── 1_Estrutura_de_Pastas.py
     ├── 2_Listador_de_Arquivos.py
     ├── 3_Unificador_de_PDFs.py
     ├── 4_PDF_para_Imagem.py
-    └── 5_Transcritor_de_Audio.py
+    ├── 5_Transcritor_de_Audio.py
+    ├── 6_Historico_Leitura.py
+    └── 7_Redimensionador_Imagens.py
 ```
 
 ## Status

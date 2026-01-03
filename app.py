@@ -21,6 +21,8 @@ Este aplicativo consolida diversas ferramentas úteis para o seu dia a dia, orga
 3.  **Unificador de PDFs**: Combina múltiplos arquivos PDF em um único documento.
 4.  **Transcritor de Áudio e Resumo**: Transcreve arquivos de áudio e gera um resumo consolidado usando IA (OpenAI).
 5.  **Conversor de PDF para Imagem**: Converte cada página de um PDF em arquivos de imagem (PNG/JPEG).
+6.  **Histórico de Leitura**: Gestão completa de livros, metas e insights com IA.
+7.  **Redimensionador de Imagens**: Ferramenta em lote para ajustar resolução de imagens.
 """)
 
 st.info("A navegação entre as ferramentas é feita através das páginas no menu lateral.")

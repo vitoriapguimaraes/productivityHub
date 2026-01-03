@@ -1,0 +1,239 @@
+﻿,#,Título,Autor,Ano (pub.),Tipo,Prioridade,"Status (2 lendo, 1 a ler e 0 lido)",Disponível em,Categoria,Motivação,i,"minha opinião (1 a 5, amei)",Lido em,Status_Label,Score_Importancia
+0,1,Build a Large Language Model (From Scratch),Sebastian Raschka,2024,Técnico,4 - Alta,2,PDF,Sistemas de IA & LLMs,,32,,,Lendo,32
+1,1,1984,George Orwell,1949,Não Técnico,4 - Alta,2,Estante,Épicos & Ficção Reflexiva,Distopia clássica sobre totalitarismo,25,5,2025/01,Lendo,25
+2,3,Python Fluente,Luciano Ramalho,2023,Técnico,4 - Alta,1,Online,Artesanato de Software (Clean Code),https://pythonfluente.com/2/,29,,,A Ler,29
+3,4,Low-Code AI: A Practical Project-Driven Introduction to Machine Learning,Stripling,2023,Técnico,4 - Alta,1,,Engenharia de ML & MLOps,Introdução prática ao Machine Learning usando plataformas low-code. IA e MLOps,31,,,A Ler,31
+4,5,"Pai Rico, Pai Pobre",Robert Kiyosaki,1997,Não Técnico,4 - Alta,1,Estante,Liberdade Econômica & Finanças,Fundamentos de educação financeira e investimentos.,23,,,A Ler,23
+5,6,Generative Deep Learning,David Foster,2023,Técnico,4 - Alta,1,PDF,Sistemas de IA & LLMs,,32,,,A Ler,32
+6,7,Simple SQL,Preston Prescott,2015,Técnico,4 - Alta,1,PDF,Storytelling & Visualização,"O domínio de SQL é uma habilidade fundamental para qualquer profissional de dados, análise ou desenvolvimento. Este livro proporciona uma base para manipular e extrair informações, sendo crucial no seu dia a dia.",26,,,A Ler,26
+7,8,Image classification with AutoKeras,Manning live project,,Técnico,4 - Alta,1,,Machine learning,,14,,,A Ler,14
+8,9,Think Stats,Allen B. Downey,2025,Técnico,4 - Alta,1,PDF,Estatística & Incerteza,https://allendowney.github.io/ThinkStats/index.html,30,,,A Ler,30
+9,10,Machine Learning Yearning,Andrew Ng,2018,Técnico,4 - Alta,1,PDF,Sistemas de IA & LLMs,Dominar os pilares fundamentais da inteligência artificial moderna.,30,,,A Ler,30
+10,11,Automated machine learning in action,Qingquan Song et al.,,Técnico,4 - Alta,1,,Engenharia de ML & MLOps,Dominar os pilares fundamentais da inteligência artificial moderna.,22,,,A Ler,22
+11,12,Sobre a escrita: A arte em memórias ,Stephen King,2015,Não Técnico,4 - Alta,1,,Épicos & Ficção Reflexiva,Explorar a fronteira tecnológica e seus impactos na sociedade.,26,,,A Ler,26
+12,13,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",Aurélien Géron,2022,Técnico,4 - Alta,1,,Machine learning,"Complementa o ""Deep Learning with Python"" do Chollet, oferecendo uma visão mais ampla e prática de ML em geral, com foco em implementação. Essencial para quem quer aplicar ML de forma eficaz.",23,,,A Ler,23
+13,14,Deep Learning,Ian Goodfellow & Yoshua Bengio & Aaron Courville,2016,Técnico,4 - Alta,1,PDF,Sistemas de IA & LLMs,,30,,,A Ler,30
+14,15,Machine Learning Engineering,Andriy Burkov,2020,Técnico,4 - Alta,1,,Sistemas de IA & LLMs,Aprofundar em engenharia de Machine Learning para produção.,30,,,A Ler,30
+15,16,Transformers for Natural Language Processing,Denis Rothman,2024,Técnico,3 - Média-Alta,1,PDF,Sistemas de IA & LLMs,,29,,,A Ler,29
+16,17,Sapiens: Uma Breve História da Humanidade,Yuval Noah Harari,2011,Não Técnico,4 - Alta,1,,Cosmologia & Fronteiras da Ciência,Ampla perspectiva sobre a história da humanidade e o futuro.,27,,,A Ler,27
+17,18,An Introduction to Statistical Learning,Gareth James,2023,Técnico,4 - Alta,1,PDF,Estatística & Incerteza,https://www.statlearning.com/,30,,,A Ler,30
+18,19,Eloquent JavaScript,Marijn Haverbeke,2024,Técnico,4 - Alta,1,,Artesanato de Software (Clean Code),https://eloquentjavascript.net/,29,,,A Ler,29
+19,20,Deep Learning for Computer Vision with Python (Practitioner Bundle),Adrian Rosebrock,2019,Técnico,4 - Alta,1,,Sistemas de IA & LLMs,Aprofundar conhecimentos em Deep Learning aplicado à Visão Computacional com Python.,30,,,A Ler,30
+20,21,Deep Learning for Computer Vision with Python (Starter Bundle),Adrian Rosebrock,2019,Técnico,4 - Alta,1,PDF,Sistemas de IA & LLMs,Aprofundar conhecimentos em Deep Learning aplicado à Visão Computacional com Python.,30,,,A Ler,30
+21,22,A Jornada do Escritor: Estrutura mítica para escritores,Christopher Vogler,2024,Não Técnico,4 - Alta,1,,Comunicação,,21,,,A Ler,21
+22,23,Guia Front-End: O caminho das pedras para ser um dev Front-End,Diego Eis,2015,Técnico,3 - Média-Alta,1,,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,27,,,A Ler,27
+23,24,Feature Engineering for Machine Learning,"Alice Zheng, Amanda Casari",2018,Técnico,4 - Alta,1,PDF,Engenharia de ML & MLOps,Otimize modelos extraindo o melhor dos dados.,29,,,A Ler,29
+24,25,HTML5 e CSS3: Domine a web do futuro,Lucas Mazza,2014,Técnico,3 - Média-Alta,1,,Programação,,18,,,A Ler,18
+25,26,Machine Learning a first course for engineers and scientists,Andreas Lindholm et al.,,Técnico,3 - Média-Alta,1,,Machine learning,Dominar os pilares fundamentais da inteligência artificial moderna.,11,,,A Ler,11
+26,27,An Introduction to Statistical Learning,Gareth James et al.,,Técnico,3 - Média-Alta,1,,Estatística & Incerteza,,18,,,A Ler,18
+27,28,Inteligência Emocional,Daniel Goleman,1995,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),Desenvolver a capacidade de gerenciar emoções e relacionamentos.,23,,,A Ler,23
+28,29,Designing Machine Learning Systems,Chip Huyen,2022,Técnico,4 - Alta,1,,Engenharia de ML & MLOps,Design de sistemas de ML em larga escala.,31,,,A Ler,31
+29,30,Computer Vision: Algorithms and Applications,Richard Szeliski,2021,Técnico,3 - Média-Alta,1,,Artesanato de Software (Clean Code),Compreender algoritmos e aplicações de visão computacional.,24,,,A Ler,24
+30,31,A Cor dos Dados: Um guia para o uso de cores em storytelling de dados,Kate Strachnyi,2023,Técnico,4 - Alta,1,,Storytelling & Visualização,Explorar a fronteira tecnológica e seus impactos na sociedade.,28,,,A Ler,28
+31,32,Practical MLOps,"Noah Gift, Alfredo Deza",2021,Técnico,4 - Alta,1,,Engenharia de ML & MLOps,Guia prático para implementar MLOps.,29,,,A Ler,29
+32,33,Data Science for Business,"Foster Provost, Tom Fawcett",2013,Técnico,4 - Alta,1,,Storytelling & Visualização,Como a ciência de dados pode ser aplicada para resolver problemas de negócios e gerar valor. Negócios e dados,26,,,A Ler,26
+33,34,Razão e Sensibilidade,Jane Austen,1811,Não Técnico,4 - Alta,1,Estante,Épicos & Ficção Reflexiva,Contraste entre lógica e emoção,25,,,A Ler,25
+34,35,Uma Breve História do Tempo,Stephen Hawking,1988,Técnico,3 - Média-Alta,1,PDF,Cosmologia & Fronteiras da Ciência,"Explora conceitos de cosmologia, buracos negros, universo e tempo de forma acessível. Ciência acessível sobre o universo",23,,,A Ler,23
+35,36,Business Intelligence: Implementar do jeito certo e a custo zero,Ronaldo Braghitton,2017,Técnico,4 - Alta,1,,Análise de Dados,Visualização de dados,21,,,A Ler,21
+36,37,Persuasão,Jane Austen,1817,Não Técnico,4 - Alta,1,Estante,Épicos & Ficção Reflexiva,Romance maduro e delicado,25,,,A Ler,25
+37,38,Data Analytics For Beginners,Victor Finch,2023,Técnico,3 - Média-Alta,1,,Estatística & Incerteza,"É o livro perfeito para quem está iniciando no universo de dados, oferecendo uma visão global e acessível que serve como um excelente ponto de partida na sua transição de carreira.",27,,,A Ler,27
+38,39,Soft skills: competências essenciais para os novos tempos,Lucedile Antunes,2020,Não Técnico,4 - Alta,1,,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,28,,,A Ler,28
+39,40,Soft Skills - Vol 2: habilidades do futuro para o profissional do agora,Lucedile Antunes,2021,Não Técnico,4 - Alta,1,,Desenvolvimento pessoal,,19,,,A Ler,19
+40,41,Comunicação Não Violenta,Marshall Rosenberg,1999,Não Técnico,4 - Alta,1,,Comunicação,Melhorar a comunicação interpessoal no trabalho e na vida.,16,,,A Ler,16
+41,42,A Coragem de Não Agradar,"Ichiro Kishimi, Fumitake Koga",2013,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),Libertar-se da necessidade de aprovação e viver autenticamente.,26,,,A Ler,26
+42,43,O Poder da Ação,Paulo Vieira,2017,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),Transformar metas em realidade através de ações consistentes.,26,,,A Ler,26
+43,44,O Poder da Empatia,Brené Brown,2013,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),Cultivar a empatia para melhorar relacionamentos e liderança.,26,,,A Ler,26
+44,45,JavaScript: O Guia Definitivo,David Flanagan ,2012,Técnico,2 - Média,1,,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,24,,,A Ler,24
+45,46,A Sutil Arte de Ligar o F*da-se,Mark Manson,2016,Não Técnico,4 - Alta,1,,Desenvolvimento pessoal,Abordagem irreverente sobre felicidade e valores.,19,,,A Ler,19
+46,47,A Guerra da Arte,Steven Pressfield,2002,Não Técnico,4 - Alta,1,,Produtividade,Superar a resistência e a procrastinação na busca por objetivos criativos.,16,,,A Ler,16
+47,48,GPU Programming with C++ and CUDA: Uncover effective techniques for writing efficient GPU-parallel C++ applications,Paulo Motta,2025,Técnico,3 - Média-Alta,1,PDF,Artesanato de Software (Clean Code),,26,,,A Ler,26
+48,49,O Príncipe,Nicolau Maquiavel,1532,Não Técnico,3 - Média-Alta,1,,Liderança & Pensamento Estratégico,Compreender a natureza do poder e da liderança política.,20,,,A Ler,20
+49,50,A Arte da Guerra,Sun Tzu,Séc. V a.C.,Não Técnico,3 - Média-Alta,1,,Liderança & Pensamento Estratégico,Princípios de estratégia aplicáveis a diversas áreas da vida.,16,,,A Ler,16
+50,51,Comece pelo Porquê,Simon Sinek,2009,Não Técnico,3 - Média-Alta,1,,Liderança & Pensamento Estratégico,Descobrir o propósito para inspirar a si mesmo e aos outros.,23,,,A Ler,23
+51,52,Liderança sem Título,Robin Sharma,2010,Não Técnico,4 - Alta,1,,Liderança & Pensamento Estratégico,"Assumir a liderança em qualquer posição, sem depender de um título.",26,,,A Ler,26
+52,53,O Milagre da Manhã,Hal Elrod,2012,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),Criar uma rotina matinal para maximizar o potencial diário.,26,,,A Ler,26
+53,54,O Poder do Hábito,Charles Duhigg,2012,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),Entender a ciência por trás dos hábitos para melhorá-los.,26,,,A Ler,26
+54,55,O Poder da Vulnerabilidade,Brené Brown,2012,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),Aprofundar na importância da vulnerabilidade para conexões autênticas.,26,,,A Ler,26
+55,56,A Coragem de Ser Imperfeito,Brené Brown,2012,Não Técnico,4 - Alta,1,,Arquitetura da Mente (Mindset),"Abraçar a vulnerabilidade, cultivar a autenticidade e superar a vergonha para uma vida plena.",26,,,A Ler,26
+56,57,Lógica de programação com Portugol,"Joice Barbosa Mendes, Rafael da Silva Muniz",2022,Técnico,3 - Média-Alta,1,,Programação,,20,,,A Ler,20
+57,58,Como Fazer Amigos e Influenciar Pessoas,Dale Carnegie,1936,Não Técnico,4 - Alta,1,,Sistemas de IA & LLMs,Desenvolver habilidades de comunicação e relacionamento interpessoal para o sucesso na vida e na carreira.,25,,,A Ler,25
+58,59,Atlas do coracao,Brene Brown,,Não Técnico,3 - Média-Alta,1,PDF,Inteligência emocional,,9,,,A Ler,9
+59,60,Harry Potter e a Pedra Filosofal,J.K. Rowling,1997,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Início da jornada mágica de Harry,22,,,A Ler,22
+60,61,Harry Potter e a Câmara Secreta,J.K. Rowling,1998,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Segredos antigos e mistérios de Hogwarts,22,,,A Ler,22
+61,62,Harry Potter e o Prisioneiro de Azkaban,J.K. Rowling,1999,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Mistérios do passado e novos aliados,22,,,A Ler,22
+62,63,Harry Potter e o Cálice de Fogo,J.K. Rowling,2000,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Torneio perigoso e retorno de Voldemort,22,,,A Ler,22
+63,64,Designing Machine Learning Systems,Chip Huyen,2022,Técnico,3 - Média-Alta,1,,Engenharia de ML & MLOps,Dominar os pilares fundamentais da inteligência artificial moderna.,28,,,A Ler,28
+64,65,Harry Potter e a Ordem da Fênix,J.K. Rowling,2003,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Resistência contra o Ministério da Magia,22,,,A Ler,22
+65,66,O pensamento lateral,Edward de Bono,1970,Não Técnico,3 - Média-Alta,1,,Conhecimento geral,,13,,,A Ler,13
+66,67,Harry Potter e o Enigma do Príncipe,J.K. Rowling,2005,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Segredos sombrios de Voldemort,22,,,A Ler,22
+67,68,Harry Potter e as Relíquias da Morte,J.K. Rowling,2007,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Desfecho épico da saga,25,,,A Ler,25
+68,69,Jogador Nº 1,Ernest Cline,2011,Não Técnico,3 - Média-Alta,1,Estante,Épicos & Ficção Reflexiva,Ficção científica e cultura pop,25,,,A Ler,25
+69,70,Maisie Dobbs,Jacqueline Winspear,2003,Não Técnico,3 - Média-Alta,1,Estante,Sistemas de IA & LLMs,Detetive feminina no pós-guerra,24,,,A Ler,24
+70,71,Para Sempre,Kim e Krickitt Carpenter,2000,Não Técnico,3 - Média-Alta,1,Estante,História/Ficção,História real de amor e superação,15,,,A Ler,15
+71,72,Understanding deep learning,Simon J. S. Prince,,Técnico,2 - Média,1,,Sistemas de IA & LLMs,,17,,,A Ler,17
+72,73,Practical Statistics for Data Scientists,"Peter Bruce, Andrew Bruce, Peter Gedeck",2020,Técnico,2 - Média,1,,Estatística & Incerteza,Reforçar os fundamentos estatísticos essenciais para a Ciência de Dados.,22,,,A Ler,22
+73,74,O Homem Mais Rico da Babilônia,George S. Clason,1926,Não Técnico,4 - Alta,1,,Liberdade Econômica & Finanças,Princípios atemporais de gestão financeira.,21,,,A Ler,21
+74,75,Ethics of Artificial Intelligence,Mark Coeckelbergh,2020,Não Técnico,3 - Média-Alta,1,,Sistemas de IA & LLMs,Compreender as implicações éticas da IA.,25,,,A Ler,25
+75,76,Building Machine Learning Pipelines,"Hannes Hapke, Catherine Nelson",2020,Técnico,2 - Média,1,,Engenharia de ML & MLOps,Dominar os pilares fundamentais da inteligência artificial moderna.,23,,,A Ler,23
+76,77,AI Ethics,"Anthony Casey, Anthony Niblett",2021,Não Técnico,3 - Média-Alta,1,,Sistemas de IA & LLMs,Visão jurídica e ética sobre IA.,25,,,A Ler,25
+77,78,Os Segredos da Mente Milionária,T. Harv Eker,2005,Não Técnico,4 - Alta,1,,Liberdade Econômica & Finanças,Mudar a mentalidade sobre dinheiro e riqueza.,21,,,A Ler,21
+78,79,O Mundo de Sofia,Jostein Gaarder,1991,Não Técnico,2 - Média,1,Estante,Sistemas de IA & LLMs,Introdução à história da filosofia de forma acessível.,21,,,A Ler,21
+79,80,Hábitos Atômicos,James Clear,2018,Não Técnico,3 - Média-Alta,1,PDF,Arquitetura da Mente (Mindset),Construir rotinas saudáveis e eficazes para estudos e vida pessoal.,23,,,A Ler,23
+80,81,Arquitetura Limpa,Robert C. Martin,2017,Técnico,3 - Média-Alta,1,,Artesanato de Software (Clean Code),Princípios para projetar sistemas de software com uma arquitetura sólida e flexível. Estruturação de projetos,24,,,A Ler,24
+81,82,Quem tem medo do feminismo negro?,Djamila Ribeiro,2018,Não Técnico,4 - Alta,1,,Justiça Social & Interseccionalidade,Aprofundar no feminismo e suas interseccionalidades.,23,,,A Ler,23
+82,83,Pequeno Manual Antirracista,Djamila Ribeiro,2019,Não Técnico,4 - Alta,1,,Justiça Social & Interseccionalidade,Compreender e combater o racismo estrutural.,23,,,A Ler,23
+83,84,Pense em Python,,,Técnico,3 - Média-Alta,1,,Artesanato de Software (Clean Code),Excelência técnica na linguagem base para engenharia de dados e IA.,17,,,A Ler,17
+84,85,O Monge e o Executivo,James C. Hunter,1998,Não Técnico,3 - Média-Alta,1,,Liderança & Pensamento Estratégico,Aprender sobre liderança servidora e seus princípios.,20,,,A Ler,20
+85,86,Interseccionalidade,Carla Akotirene,2019,Não Técnico,4 - Alta,1,,Justiça Social & Interseccionalidade,Compreender as múltiplas camadas de opressão e privilégio e sua relevância para a justiça social.,23,,,A Ler,23
+86,87,Getting Things Done,David Allen,2001,Não Técnico,3 - Média-Alta,1,,Produtividade,,13,,,A Ler,13
+87,88,"Armas, Germes e Aço",Jared Diamond,1997,Não Técnico,2 - Média,1,,Cosmologia & Fronteiras da Ciência,Entender como a geografia e o ambiente moldaram as sociedades humanas.,18,,,A Ler,18
+88,89,O Gene Egoísta,Richard Dawkins,1976,Não Técnico,2 - Média,1,,Cosmologia & Fronteiras da Ciência,Perspectiva da evolução centrada nos genes.,18,,,A Ler,18
+89,90,A Origem das Espécies,Charles Darwin,1859,Não Técnico,2 - Média,1,,Cosmologia & Fronteiras da Ciência,Fundamentos da teoria da evolução e da biologia moderna.,18,,,A Ler,18
+90,91,Cosmos,Carl Sagan,1980,Não Técnico,2 - Média,1,,Cosmologia & Fronteiras da Ciência,Explorar o universo e a ciência de forma poética e inspiradora.,18,,,A Ler,18
+91,92,Assim Falou Zaratustra,Friedrich Nietzsche,1883,Não Técnico,2 - Média,1,,Conhecimento geral,"Explorar conceitos de super-homem, vontade de potência e eterno retorno.",10,,,A Ler,10
+92,93,O Andar do Bêbado,Leonard Mlodinow,2008,Não Técnico,2 - Média,1,,Cosmologia & Fronteiras da Ciência,Compreender o papel do acaso e da probabilidade na vida.,21,,,A Ler,21
+93,94,Decifrando Arquiteturas de Dados,,,Técnico,2 - Média,1,,Análise de Dados,,8,,,A Ler,8
+94,95,Data Strategy,Bernard Marr,2017,Técnico,3 - Média-Alta,1,,Negócios,Pense como uma estrategista de dados.,18,,,A Ler,18
+95,96,Lean Analytics,"Alistair Croll, Benjamin Yoskovitz",2013,Técnico,3 - Média-Alta,1,,Estatística & Incerteza,Cresça mais rápido com dados e foco.,25,,,A Ler,25
+96,97,Frankenstein,Mary Shelley,1818,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,"Pioneiro da ficção científica, reflexão sobre criação e responsabilidade.",19,,,A Ler,19
+97,98,A Garota no Trem,Paula Hawkins,2015,Não Técnico,2 - Média,1,Estante,História/Ficção,Thriller psicológico moderno,15,,,A Ler,15
+98,99,Assassinato no Expresso do Oriente,Agatha Christie,1934,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Um dos casos mais famosos de Poirot,19,,,A Ler,19
+99,100,Confissões de Arsène Lupin,Maurice Leblanc,1913,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Clássico francês do crime e mistério,19,,,A Ler,19
+100,101,Contra Herlock Sholmes,Maurice Leblanc,1910,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Paródia divertida de Sherlock Holmes,19,,,A Ler,19
+101,102,Morte na Mesopotâmia,Agatha Christie,1936,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Clássico do mistério e suspense,19,,,A Ler,19
+102,103,Morte no Nilo,Agatha Christie,1937,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Ambientação exótica e trama intrigante,19,,,A Ler,19
+103,104,O Ladrão de Casaca,Maurice Leblanc,1907,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Primeiras aventuras do lendário Arsène Lupin,19,,,A Ler,19
+104,105,O Verdadeiro Retorno de Arsène Lupin,Takashi Morita,2013,Não Técnico,2 - Média,1,Estante,História/Ficção,Releitura moderna de um clássico ladrão de casaca,15,,,A Ler,15
+105,106,Oliver Twist,Charles Dickens,1838,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Clássico da crítica social inglesa,19,,,A Ler,19
+106,107,O homem e seus símbolos, Carl G. Jung,2016,Não Técnico,1 - Baixa,1,,Comunicação,,10,,,A Ler,10
+107,108,Os Bilhões de Arsène Lupin,Takashi Morita,2013,Não Técnico,2 - Média,1,Estante,História/Ficção,História cheia de ação e reviravoltas,15,,,A Ler,15
+108,109,Três Ratos Cegos,Agatha Christie,1950,Não Técnico,2 - Média,1,Estante,Épicos & Ficção Reflexiva,Mistério envolvente com reviravoltas,19,,,A Ler,19
+109,110,Wild Cards - O Começo de Tudo,George R. R. Martin (org.),1987,Não Técnico,2 - Média,1,Estante,História/Ficção,Super-heróis realistas em universo alternativo,12,,,A Ler,12
+110,111,The Art of Statistics,David Spiegelhalter,2019,Técnico,1 - Baixa,1,,Estatística & Incerteza,Explora o pensamento estatístico e como interpretar dados no mundo real. Fundamentos estatísticos com clareza,19,,,A Ler,19
+111,112,The Book of Why,"Judea Pearl, Dana Mackenzie",2018,Técnico,1 - Baixa,1,,Estatística & Incerteza,"Explora o conceito de causalidade e inferência causal, indo além da correlação. Causalidade e inferência em ciência de dados",19,,,A Ler,19
+112,113,Too Big to Ignore,Phil Simon,2013,Técnico,1 - Baixa,1,,Conhecimento geral,Argumenta a importância estratégica dos dados e como eles se tornam uma vantagem competitiva. Dados como vantagem competitiva,12,,,A Ler,12
+113,114,"Estatística, Probabilidade e Aprendizado de Máquina,",Máiron C. S. Chaves,,Técnico,1 - Baixa,1,,Machine learning,,5,,,A Ler,5
+114,115,Pattern Recognition and Machile Learning,Christopher M. Bishop,,Técnico,1 - Baixa,1,,Machine learning,,5,,,A Ler,5
+115,116,Statistics: A Very Short Introduction,David J. Hand,2008,Técnico,1 - Baixa,1,,Estatística & Incerteza,Conceitos essenciais de estatística de forma concisa e clara. Conceitos estatísticos de forma resumida,19,,,A Ler,19
+116,117,Peopleware,"Tom DeMarco, Timothy Lister",1987 (ed. orig.),Técnico,1 - Baixa,1,,Liderança,"Gestão de equipes de desenvolvimento de software, cultura e produtividade. Soft skills para devs",9,,,A Ler,9
+117,118,Python Data Science Handbook,Jake VanderPlas,2016,Técnico,2 - Média,1,PDF,Artesanato de Software (Clean Code),Excelência técnica na linguagem base para engenharia de dados e IA.,21,,,A Ler,21
+118,119,O Dilema da Inovação,Clayton M. Christensen,1997,Técnico,1 - Baixa,1,,Conhecimento geral,Explora por que grandes empresas falham ao inovar e como as inovações disruptivas surgem. Entender o mercado de tecnologia,9,,,A Ler,9
+119,120,The Coming Wave,"Michael Bhaskar and Mustafa Suleyma
+",2023,Técnico,2 - Média,1,,Sistemas de IA & LLMs,,26,,,A Ler,26
+120,121,Speech and Language Processing,,,Técnico,1 - Baixa,1,,Machine learning,,5,,,A Ler,5
+121,122,Dynamics of Software Development,Jim McCarthy,1995,Técnico,1 - Baixa,1,,Inteligência emocional,Como construir uma cultura de equipe produtiva e eficaz em projetos de desenvolvimento. Cultura de times,9,,,A Ler,9
+122,123,Design Patterns,Erich Gamma et al.,1994,Técnico,3 - Média-Alta,1,,Arquitetura,Use soluções clássicas para problemas recorrentes de software.,15,,,A Ler,15
+123,124,Guia Politicamente Incorreto da História do Brasil,Leandro Narloch,2009,Não Técnico,1 - Baixa,1,Estante,Sistemas de IA & LLMs,Visão alternativa da história brasileira,21,,,A Ler,21
+124,125,Guia Politicamente Incorreto da História do Mundo,Leandro Narloch,2011,Não Técnico,1 - Baixa,1,Estante,Sistemas de IA & LLMs,História com visão crítica e provocadora,21,,,A Ler,21
+125,126,Practical Statistics for Data Scientists,"Peter Bruce, Andrew Bruce",2017,Técnico,2 - Média,1,,Estatística & Incerteza,,22,,,A Ler,22
+126,127,Alan Turing: Suas Máquinas e Seus Segredos,"Sílvia Amélia Bim, Silvio Luiz Bragatto Boss",2017,Técnico,1 - Baixa,1,,IA,Biografia e análise das contribuições de Alan Turing para a computação e IA. História da Computação e IA,12,,,A Ler,12
+127,128,"Mente, Cérebro e Ciência",John Searle,1984 (ed. orig.),Técnico,1 - Baixa,1,,Sistemas de IA & LLMs,"Aborda a filosofia da mente, consciência e a relação entre mente e cérebro, com foco em IA. Fundamentos de IA e Filosofia da Mente",18,,,A Ler,18
+128,129,Meditações,Marco Aurélio,Séc. II d.C.,Não Técnico,2 - Média,1,,Biohacking & Existência,"Reflexões sobre virtude, razão e tranquilidade interior.",11,,,A Ler,11
+129,130,A Cura Quântica,Deepak Chopra,1989,Não Técnico,2 - Média,1,,Biohacking & Existência,"Explorar a conexão entre mente, corpo e espírito na cura.",15,,,A Ler,15
+130,131,O Poder da Gratidão,Louise Hay,2008,Não Técnico,2 - Média,1,,Biohacking & Existência,Cultivar a gratidão para promover a saúde e a felicidade.,18,,,A Ler,18
+131,132,A Magia,Rhonda Byrne,2012,Não Técnico,2 - Média,1,,Biohacking & Existência,Praticar a gratidão para transformar a vida.,18,,,A Ler,18
+132,133,O Segredo,Rhonda Byrne,2006,Não Técnico,2 - Média,1,,Biohacking & Existência,"Descobrir o ""segredo"" para manifestar desejos e alcançar objetivos.",18,,,A Ler,18
+133,134,A Lei da Atração,Michael J. Losier,2007,Não Técnico,2 - Média,1,,Desenvolvimento pessoal,Compreender e aplicar os princípios da Lei da Atração.,13,,,A Ler,13
+134,135,O Poder do Agora na Prática,Eckhart Tolle,2001,Não Técnico,2 - Média,1,,Biohacking & Existência,Exercícios práticos para aplicar os ensinamentos de O Poder do Agora.,15,,,A Ler,15
+135,136,A Arte da Felicidade,"Dalai Lama, Howard C. Cutler",1998,Não Técnico,2 - Média,1,,Biohacking & Existência,Buscar a felicidade através da sabedoria budista.,15,,,A Ler,15
+136,137,A Morte é um Dia que Vale a Pena Viver,Ana Claudia Quintana Arantes,2016,Não Técnico,2 - Média,1,,Sistemas de IA & LLMs,Refletir sobre a vida e a finitude de forma leve e profunda.,22,,,A Ler,22
+137,138,Pratical MLOps,"Noah Gift, Alfredo Deza",2021,Técnico,2 - Média,1,PDF,Engenharia de ML & MLOps,,23,,,A Ler,23
+138,139,O Cérebro de Buda,Rick Hanson,2009,Não Técnico,2 - Média,1,,Biohacking & Existência,Aplicar a neurociência para cultivar a felicidade e a resiliência.,18,,,A Ler,18
+139,140,O Conto da Aia,Margaret Atwood,1985,Não Técnico,2 - Média,1,,Épicos & Ficção Reflexiva,"Reflexão sobre opressão, gênero e controle social.",17,,,A Ler,17
+140,141,Wuthering Heights,Emily Brontë,1847,Não Técnico,2 - Média,1,,Épicos & Ficção Reflexiva,"Romance intenso sobre paixão, vingança e tragédia.",17,,,A Ler,17
+141,142,Beloved,Toni Morrison,1987,Não Técnico,2 - Média,1,,História/Ficção,Explora os traumas da escravidão e a busca por liberdade.,10,,,A Ler,10
+142,143,A Hora da Estrela,Clarice Lispector,1977,Não Técnico,2 - Média,1,,Literatura Brasileira Clássica,"Reflexão sobre a condição humana e a existência, com estilo único.",16,,,A Ler,16
+143,144,Drácula,Bram Stoker,1897,Não Técnico,2 - Média,1,,História/Ficção,"Clássico do terror gótico, explora o bem e o mal.",10,,,A Ler,10
+144,145,Noite,Elie Wiesel,1960,Não Técnico,2 - Média,1,,História/Ficção,Testemunho impactante sobre a experiência no campo de concentração.,10,,,A Ler,10
+145,146,Jane Eyre,Charlotte Brontë,1847,Não Técnico,2 - Média,1,,História/Ficção,Romance gótico sobre independência feminina e superação.,10,,,A Ler,10
+146,147,A Metamorfose,Franz Kafka,1915,Não Técnico,2 - Média,1,,Épicos & Ficção Reflexiva,Crítica à burocracia e à alienação na sociedade moderna.,17,,,A Ler,17
+147,148,O herói e o fora da lei: Como construir marcas extraordinárias usando o poder dos arquétipos, Carol S. Pearson,2022,Não Técnico,1 - Baixa,1,,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,21,,,A Ler,21
+148,149,Essencialismo: A Disciplinada Busca por Menos,Greg McKeown,2014,Não Técnico,2 - Média,1,,Sistemas de IA & LLMs,Focar no que é essencial e eliminar o que não é para maior produtividade e clareza.,22,,,A Ler,22
+149,150,Mindset: A Nova Psicologia do Sucesso,Carol S. Dweck,2006,Não Técnico,2 - Média,1,,Arquitetura da Mente (Mindset),Compreender a diferença entre mentalidade fixa e de crescimento e como isso afeta o sucesso.,20,,,A Ler,20
+150,151,O Mito do Empreendedor,Michael E. Gerber,1986,Não Técnico,3 - Média-Alta,1,,Negócios,Entender os desafios de gerenciar um negócio e evitar armadilhas comuns.,13,,,A Ler,13
+151,152,Data science handbook,Jake Klamka,2020,Técnico,2 - Média,1,PDF,Estatística & Incerteza,"The Data Science Handbook is a compilation of in-depth interviews with 25 remarkable data scientists, where they share their insights, stories, and advice.",22,,,A Ler,22
+152,153,Padrões para Kubernetes,Bilgin Ibryam,2019,Técnico,1 - Baixa,1,,MLOps,Melhores práticas e padrões de design para construir e operar aplicações em Kubernetes. Melhores práticas para arquitetura em nuvem,12,,,A Ler,12
+153,154,Data Mesh: Delivering Data-Driven Value at Scale,Zhamak Dehghani,2022,Técnico,1 - Baixa,1,,Engenharia de dados,A nova abordagem descentralizada de dados.,14,,,A Ler,14
+154,155,Fundamentals of Data Engineering,"Joe Reis, Matt Housley",2022,Técnico,1 - Baixa,1,,Engenharia de ML & MLOps,Construa base sólida em engenharia de dados moderna.,22,,,A Ler,22
+155,156,Beginning Microsoft Power BI,Dan Clark,2020,Técnico,1 - Baixa,1,,Estatística & Incerteza,Guia prático para usar o Power BI na análise e visualização de dados. Ferramenta essencial para análise de dados,19,,,A Ler,19
+156,157,Business unIntelligence,Barry Devlin,2013,Técnico,1 - Baixa,1,,Análise de Dados,Crítica à inteligência de negócios tradicional e propõe uma evolução para um BI mais estratégico. Para visão estratégica de dados,12,,,A Ler,12
+157,158,Como Criar uma Mente: Os segredos do pensamento humano,Raymond Kurzweil,2012,Técnico,1 - Baixa,1,,Sistemas de IA & LLMs,Explora como o cérebro humano funciona e a possibilidade de replicá-lo artificialmente. IA e MLOps,21,,,A Ler,21
+158,159,Emotion Machine,Marvin Minsky,2006,Técnico,1 - Baixa,1,,MLOps,Teoria sobre como a mente humana funciona e como as emoções são construídas. IA e MLOps,12,,,A Ler,12
+159,160,Homo Deus: Uma Breve História do Amanhã,Yuval Noah Harari,2015,Não Técnico,1 - Baixa,1,,Cosmologia & Fronteiras da Ciência,Refletir sobre o futuro da humanidade e o impacto da tecnologia.,18,,,A Ler,18
+160,161,A Ciência De Como Não Estar Errado,Jordan Ellenberg,,Técnico,1 - Baixa,1,,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,14,,,A Ler,14
+161,162,Dados e storytelling de impacto,Brent Dykes,,Técnico,1 - Baixa,1,,Análise de Dados,,5,,,A Ler,5
+162,163,"Estatística: O que é, para que serve",Charles Wheelan,,Técnico,1 - Baixa,1,,Estatística & Incerteza,,12,,,A Ler,12
+163,164,Factfulness,Hans Rosling,,Técnico,1 - Baixa,1,,Análise de Dados,,5,,,A Ler,5
+164,165,O Andar do Bêbado,Leonard Mlodinow,,Técnico,1 - Baixa,1,,Cosmologia & Fronteiras da Ciência,,13,,,A Ler,13
+165,166,Uma Senhora Toma um Chá,David Salsburg,,Técnico,1 - Baixa,1,,Análise de Dados,,5,,,A Ler,5
+166,167,Do Mil ao Milhão: Sem Cortar o Cafezinho,Thiago Nigro,2018,Não Técnico,2 - Média,1,,Liberdade Econômica & Finanças,Aprender sobre investimentos e finanças pessoais de forma prática e acessível.,18,,,A Ler,18
+167,168,Rápido e Devagar: Duas Formas de Pensar,Daniel Kahneman,2011,Não Técnico,1 - Baixa,1,,Inteligência emocional,Entender como a mente toma decisões e evitar vieses.,10,,,A Ler,10
+168,169,Armada,Ernest Cline,2015,Não Técnico,1 - Baixa,1,Estante,Épicos & Ficção Reflexiva,Sci-fi com videogames e conspiração,19,,,A Ler,19
+169,170,Algoritmos - Teoria e Prática,Thomas H. Cormen,2012,Técnico,2 - Média,1,,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,24,,,A Ler,24
+170,171,A Divina Comédia: Inferno,Dante Alighieri,1320,Não Técnico,1 - Baixa,1,Estante,Sistemas de IA & LLMs,Poema épico sobre o inferno,18,,,A Ler,18
+171,172,A Divina Comédia: Paraíso,Dante Alighieri,1320,Não Técnico,1 - Baixa,1,Estante,Sistemas de IA & LLMs,Conclusão da jornada divina,18,,,A Ler,18
+172,173,A Divina Comédia: Purgatório,Dante Alighieri,1320,Não Técnico,1 - Baixa,1,Estante,Sistemas de IA & LLMs,Continuação da jornada espiritual,18,,,A Ler,18
+173,174,Social Media Mining,Reza Zafarani,2014,Técnico,2 - Média,1,PDF,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,24,,,A Ler,24
+174,175,As Crônicas de Nárnia,C. S. Lewis,1950,Não Técnico,1 - Baixa,1,Estante,Sistemas de IA & LLMs,Fantasia e alegoria cristã,18,,,A Ler,18
+175,176,Dr. Gerald Musgrave,Owen Thornton,2020,Não Técnico,1 - Baixa,1,Estante,História/Ficção,Thriller médico e psicológico,12,,,A Ler,12
+176,177,O Caminho do Artista,Julia Cameron,1992,Não Técnico,2 - Média,1,,Arquitetura da Mente (Mindset),Desbloquear a criatividade e a expressão pessoal.,17,,,A Ler,17
+177,178,Mostre seu Trabalho!,Austin Kleon,2014,Não Técnico,2 - Média,1,,Arquitetura da Mente (Mindset),Aprender a compartilhar seu processo criativo e construir uma audiência.,20,,,A Ler,20
+178,179,Storybrand: Crie Mensagens Claras e Atraia a Atenção dos Clientes Para sua Marca,Donald Miller ,2019,Não Técnico,1 - Baixa,1,,Sistemas de IA & LLMs,Explorar a fronteira tecnológica e seus impactos na sociedade.,19,,,A Ler,19
+179,180,Roube como um Artista,Austin Kleon,2012,Não Técnico,2 - Média,1,,Arquitetura da Mente (Mindset),Inspirar a criatividade através da apropriação e transformação de ideias.,20,,,A Ler,20
+180,181,A Revolução dos Bichos,George Orwell,1945,Não Técnico,2 - Média,1,,Épicos & Ficção Reflexiva,Crítica a regimes totalitários e manipulação.,17,,,A Ler,17
+181,182,O Segundo Sexo,Simone de Beauvoir,1949,Não Técnico,2 - Média,1,,Justiça Social & Interseccionalidade,"Clássico do feminismo, fundamental para entender a condição feminina.",14,,,A Ler,14
+182,183,A Cor Púrpura,Alice Walker,1982,Não Técnico,2 - Média,1,,Justiça Social & Interseccionalidade,Luta contra o racismo e o machismo no sul dos EUA.,14,,,A Ler,14
+183,184,O Que É Lugar de Fala?,Djamila Ribeiro,2017,Não Técnico,2 - Média,1,,Justiça Social & Interseccionalidade,Refletir sobre a importância da representatividade e da voz de grupos marginalizados.,17,,,A Ler,17
+184,185,Gender Queer: A Memoir,Maia Kobabe,2019,Não Técnico,2 - Média,1,,Justiça Social & Interseccionalidade,Explorar a identidade de gênero e sexualidade através de uma perspectiva pessoal e inclusiva.,17,,,A Ler,17
+185,186,Refatoração,Martin Fowler,2019,Técnico,1 - Baixa,1,,Artesanato de Software (Clean Code),Melhore código com boas práticas e elegância.,18,,,A Ler,18
+186,187,Estruturas de dados e algoritmos com JavaScript,Loiane Groner,2016,Técnico,1 - Baixa,1,,Artesanato de Software (Clean Code),Implemente lógica essencial com uma linguagem prática.,18,,,A Ler,18
+187,188,An Introduction to the Analysis of Algorithms,"Robert Sedgewick, Philippe Flajolet",2013,Técnico,1 - Baixa,1,,Artesanato de Software (Clean Code),"Análise matemática de algoritmos, complexidade e desempenho. Base sólida de análise de algoritmos",18,,,A Ler,18
+188,189,The Mythical Man-Month,Frederick P. Brooks Jr.,1975 (ed. orig.),Técnico,1 - Baixa,1,,Programação,"Reflexões sobre gerenciamento de projetos de software, seus desafios e lições aprendidas. Gestão de projetos de software",9,,,A Ler,9
+189,190,The Art of Software Testing,Glenford J. Myers,1979 (ed. orig.),Técnico,1 - Baixa,1,,Programação,Princípios e técnicas de teste de software para garantir a qualidade. Importante para qualidade de software,9,,,A Ler,9
+190,191,Reinforcement Learning,Richard Sutton,2020,Técnico,1 - Baixa,1,PDF,Machine learning,,12,,,A Ler,12
+191,192,Object-Oriented Software Construction,Bertrand Meyer,1988 (ed. orig.),Técnico,1 - Baixa,1,,Programação,Aborda conceitos avançados de programação orientada a objetos e engenharia de software. Conceitos avançados de POO,9,,,A Ler,9
+192,193,The Art of Computer Programming (Volumes 1-3),Donald Knuth,1968 (Vol 1),Técnico,1 - Baixa,1,,Artesanato de Software (Clean Code),"Obra-prima sobre algoritmos, estruturas de dados e técnicas de programação. Obra-prima sobre algoritmos",15,,,A Ler,15
+193,194,Structure and Interpretation of Computer Programs,"Harold Abelson, Gerald Jay Sussman",1984 (ed. orig.),Técnico,1 - Baixa,1,,Programação,"Conceitos fundamentais de computação, programação e sistemas de forma profunda. Conceitos profundos de computação",9,,,A Ler,9
+194,195,Engenharia de Software: Uma abordagem profissional,Roger S. Pressman,2019,Técnico,1 - Baixa,1,,Sistemas de IA & LLMs,Uma referência clássica e abrangente sobre os princípios e práticas da engenharia de software. Referência clássica,21,,,A Ler,21
+195,196,Conversas Dificeis,"Douglas Stone, Bruce Patton e Sheila Heen",1999,Não Técnico,1 - Baixa,1,,Comunicação,Melhorar habilidades de comunicação em situações desafiadoras.,7,,,A Ler,7
+196,197,Resolução de Conflitos,Daniel Dana,1981,Não Técnico,1 - Baixa,1,,Comunicação,Desenvolver estratégias eficazes para gerenciar e resolver conflitos.,7,,,A Ler,7
+197,198,Por que Dormimos,Matthew Walker,2017,Não Técnico,1 - Baixa,1,,Biohacking & Existência,Compreender a importância do sono para a saúde física e mental.,15,,,A Ler,15
+198,199,O Corpo Explica,Cristina Cairo,1999,Não Técnico,1 - Baixa,1,,Bem-estar,Entender a relação entre emoções e doenças físicas (perspectiva alternativa).,7,,,A Ler,7
+199,200,O Jeito Harvard de Ser Feliz,Shawn Achor,2010,Não Técnico,1 - Baixa,1,,Bem-estar,Cultivar a felicidade para aumentar a produtividade e o sucesso.,10,,,A Ler,10
+200,201,Radical Candor,Kim Scott,2017,Não Técnico,1 - Baixa,1,,Liderança & Pensamento Estratégico,,17,,,A Ler,17
+201,202,The Business Forecasting Deal,Michael Gilliland,2010,Técnico,1 - Baixa,1,,Negócios,Discute a arte e a ciência da previsão de negócios de forma realista e prática. Práticas realistas em previsão de negócios,12,,,A Ler,12
+202,203,Designing Data-Intensive Applications,Martin Kleppmann,2017,Técnico,1 - Baixa,1,,Arquitetura,Entenda os bastidores de aplicações escaláveis e robustas.,12,,,A Ler,12
+203,204,Building Microservices,Sam Newman,2015,Técnico,1 - Baixa,1,,Arquitetura,"Um guia prático sobre como projetar, construir e operar microserviços. Arquiteturas distribuídas",12,,,A Ler,12
+204,205,Domain-Driven Design,Eric Evans,2003,Técnico,1 - Baixa,1,,Sistemas de IA & LLMs,Ataque a complexidade modelando o domínio corretamente.,18,,,A Ler,18
+205,206,Analysis Patterns,Martin Fowler,1996,Técnico,1 - Baixa,1,,Artesanato de Software (Clean Code),Coleção de padrões para modelagem de sistemas complexos de software e negócios. Modelagem de sistemas complexos,15,,,A Ler,15
+206,207,The Ancient Art of the Numerati,Ron Zacharski,2015,Não Técnico,1 - Baixa,1,PDF,Conhecimento geral,https://github.com/zacharski/pg2dm-python,10,,,A Ler,10
+207,,Foundations of Computer Vision,Antonio Torralba,2024,Técnico,3 - Média-Alta,0,PDF,Visão computacional,"Introdução abrangente aos fundamentos da visão computacional, incluindo avanços recentes em deep learning.",20,5,2025/11,Lido,20
+208,,Como mentir com estatística,Darrell Huff,2016,Técnico,1 - Baixa,0,PDF,Análise de Dados,,12,3,2025/11,Lido,12
+209,,Quebrando o habito de ser voce mesmo,Joe Dispenza,2012,Não Técnico,2 - Média,0,PDF,Desenvolvimento pessoal,,13,1,2025/10,Lido,13
+210,,Diário de uma princesa (coleção),Meg Cabot,2000,Não Técnico,1 - Baixa,0,,História/Ficção,"Literatura juvenil, crescimento pessoal, humor e leveza.",7,5,2008/01,Lido,7
+211,,Querido John,Nicholas Sparks,2006,Não Técnico,1 - Baixa,0,ATA,História/Ficção,"Romance, superação, desafios em relacionamentos à distância.",10,5,2008/02,Lido,10
+212,,A Última Música,Nicholas Sparks,2009,Não Técnico,1 - Baixa,0,Estante,História/Ficção,"Romance, drama familiar, reflexão sobre relacionamentos.",12,4,2008/03,Lido,12
+213,,Dom Casmurro,Machado de Assis,1899,Não Técnico,1 - Baixa,0,ATA,Literatura Brasileira Clássica,"Clássico da literatura brasileira, reflexão sobre ciúmes e percepção.",13,5,2009/01,Lido,13
+214,,Percy Jackson (coleção),Rick Riordan,2005,Não Técnico,1 - Baixa,0,,História/Ficção,"Literatura juvenil, mitologia grega, aventura e imaginação.",7,3,2010/01,Lido,7
+215,,A Culpa é das Estrelas,John Green,2012,Não Técnico,1 - Baixa,0,Estante,História/Ficção,Romance jovem e comovente,12,5,2010/04,Lido,12
+216,,O triste fim de policarpo quaresma,Lima Barreto,1911,Não Técnico,1 - Baixa,0,ATA,Literatura Brasileira Clássica,"Clássico da literatura brasileira, crítica social e política.",13,2,2010/08,Lido,13
+217,,Vidas Secas,Graciliano Ramos,1938,Não Técnico,2 - Média,0,ATA,Literatura Brasileira Clássica,Retrato da seca e da miséria no sertão nordestino.,16,2,2012/02,Lido,16
+218,,Memórias Póstumas de Brás Cubas,Machado de Assis,1881,Não Técnico,2 - Média,0,ATA,Literatura Brasileira Clássica,"Clássico da literatura brasileira, crítica social e humor ácido.",16,4,2013/06,Lido,16
+219,,O lado bom da vida,Matthew Quick,2008,Não Técnico,1 - Baixa,0,ATA,História/Ficção,"Reflexão sobre saúde mental, superação e otimismo.",10,5,2013/11,Lido,10
+220,,O Pequeno Príncipe,Antoine de Saint-Exupéry,1943,Não Técnico,2 - Média,0,Estante,História/Ficção,"Reflexões sobre amizade, amor e o sentido da vida.",12,5,2015/05,Lido,12
+221,,O Cão dos Baskerville,Arthur Conan Doyle,1902,Não Técnico,1 - Baixa,0,Estante,História/Ficção,Caso mais famoso de Holmes,9,5,2019/12,Lido,9
+222,,O Signo dos Quatro,Arthur Conan Doyle,1890,Não Técnico,1 - Baixa,0,Estante,História/Ficção,Exploração do passado e mistério,9,4,2019/12,Lido,9
+223,,O Vale do Medo,Arthur Conan Doyle,1915,Não Técnico,1 - Baixa,0,Estante,História/Ficção,Última novela de Sherlock Holmes,9,4,2019/12,Lido,9
+224,,Um Estudo em Vermelho,Arthur Conan Doyle,1887,Não Técnico,1 - Baixa,0,Estante,História/Ficção,Primeira aparição de Sherlock Holmes,9,5,2019/12,Lido,9
+225,,O Diário de Anne Frank,Anne Frank,1947,Não Técnico,2 - Média,0,ATA,História/Ficção,Relato emocionante da vida durante o Holocausto.,10,5,2020/07,Lido,10
+226,,Orgulho e Preconceito,Jane Austen,1813,Não Técnico,2 - Média,0,Estante,Épicos & Ficção Reflexiva,Crítica social e romance sobre costumes e classes na Inglaterra.,19,5,2023/03,Lido,19
+227,,Coragem para liderar,Brene Brown,2019,Não Técnico,4 - Alta,0,PDF,Liderança,Essencial para aprendizado sobre si e para coragem!,19,5,2025/04,Lido,19
+228,,Entendendo Algoritmos,Aditya Bhargava,2016,Técnico,1 - Baixa,0,PDF,Artesanato de Software (Clean Code),Uma base sólida em algoritmos é fundamental para o desenvolvimento de sistemas e a resolução eficiente de problemas. Este livro é didático e ideal para fortalecer sua lógica de programação.,18,4,2025/04,Lido,18
+229,,O Programador Pragmático,Andrew Hunt e David Thomas,1999,Não Técnico,3 - Média-Alta,0,Estante,Artesanato de Software (Clean Code),Melhores práticas para programadores,21,3,2025/04,Lido,21
+230,,Código Limpo,"Robert C. Martin, Leandro Chu",2008,Técnico,1 - Baixa,0,PDF,Artesanato de Software (Clean Code),É uma leitura obrigatória e indispensável para qualquer desenvolvedor. A aplicação das boas práticas ensinadas aqui terá um impacto direto na qualidade do seu código e na sua colaboração em equipe no estágio.,18,3,2025/05,Lido,18
+231,,The Quick Python Book,Naomi Ceder,2025,Técnico,4 - Alta,0,PDF,Artesanato de Software (Clean Code),"É o ponto de partida ideal para quem está começando ou quer solidificar conhecimentos em Python. Dada sua atuação com Python, Machine Learning e Visão Computacional, este livro oferece a base sólida e atualizada que você precisa. Sua didática o torna acessível e eficaz.",29,4,2025/05,Lido,29
+232,,Deep Learning with Python,François Chollet,2021,Técnico,4 - Alta,0,PDF,Sistemas de IA & LLMs,"Essencial para sua área de interesse em IA e MLOps. François Chollet é o criador do Keras, o que garante uma perspectiva prática e autoritária sobre o assunto.",30,3,2025/07,Lido,30
+233,,Storytelling with Data,Cole Nussbaumer Knaflic,2015,Técnico,4 - Alta,0,PDF,Storytelling & Visualização,É a ponte entre a análise técnica de dados e o mundo dos negócios. A capacidade de comunicar seus resultados de forma clara e persuasiva é crucial para apresentar insights e gerar valor.,26,4,2025/07,Lido,26
+234,,Super Thinking The Big Book of Mental Models,Gabriel Weinberg,2019,Não Técnico,4 - Alta,0,PDF,Conhecimento geral,Desenvolver frameworks e atalhos mentais para cortar a complexidade e tomar melhores decisões.,19,5,2025/08,Lido,19
+235,,Operação Miami,James Grippando,2006,Não Técnico,2 - Média,0,Estante,Sistemas de IA & LLMs,Suspense moderno e investigação policial,24,4,2025/08,Lido,24
+236,,A história da Inteligência Artificial para quem tem pressa,Peter J. Bentley,2025,Não Técnico,4 - Alta,0,PDF,Sistemas de IA & LLMs,Compreender a evolução da IA e seus impactos.,30,4,2025/09,Lido,30

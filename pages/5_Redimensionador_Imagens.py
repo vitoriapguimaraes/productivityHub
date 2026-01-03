@@ -78,7 +78,7 @@ if uploaded_files:
                 byte_im = buf.getvalue()
                 
                 processed_images.append({
-                    "name": f"resized_{up_file.name}",
+                    "name": f"{up_file.name}",
                     "data": byte_im,
                     "type": up_file.type,
                     "dims": f"{new_w}x{new_h}"

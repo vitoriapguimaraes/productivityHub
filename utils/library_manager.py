@@ -16,7 +16,7 @@ def find_data_file():
 DATA_PATH = find_data_file()
 
 REQUIRED_COLUMNS = [
-    "Título", "Autor", "Ano", "Tipo", "Prioridade", "Status", "Disponivel", "Categoria"
+    "Título", "Autor", "Ano", "Tipo", "Prioridade", "Status", "Disponivel", "Categoria", "#"
 ]
 
 def get_data_path():
@@ -53,31 +53,32 @@ def calcular_importancia_engine(row):
             elif ano >= 2022: score += 9
         except: pass
             
-        # Regra Categoria
-        cat_weights = {
-            "Alta Performance & Foco": 8,
-            "Liderança & Pensamento Estratégico": 7,
-            "Arquitetura da Mente (Mindset)": 7,
-            "Artesanato de Software (Clean Code)": 6,
-            "Sistemas de IA & LLMs": 9,
-            "Storytelling & Visualização": 5,
-            "Biohacking & Existência": 5,
-            "Literatura Brasileira Clássica": 6,
-            "Épicos & Ficção Reflexiva": 7,
-            "Justiça Social & Interseccionalidade": 4,
-            "Negócios & Estratégia": 3,
-            "Liberdade Econômica & Finanças": 5,
-            "Cosmologia & Fronteiras da Ciência": 8,
-            "Estatística & Incerteza": 7,
-            "Engenharia de ML & MLOps": 8,
-            "Arquitetura de Sistemas Digitais": 5,
-            "Design & UX": 3,
-            "Noir & Engenharia do Mistério": 5,
-            "Comunicação & Influência": 6
-        }
-        score += cat_weights.get(cat.strip(), 0)
+# Regra Categoria
+        score += CATEGORIES_MAP.get(cat.strip(), 0)
         return score
     except: return 0
+
+CATEGORIES_MAP = {
+    "Alta Performance & Foco": 8,
+    "Liderança & Pensamento Estratégico": 7,
+    "Arquitetura da Mente (Mindset)": 7,
+    "Artesanato de Software (Clean Code)": 6,
+    "Sistemas de IA & LLMs": 9,
+    "Storytelling & Visualização": 5,
+    "Biohacking & Existência": 5,
+    "Literatura Brasileira Clássica": 6,
+    "Épicos & Ficção Reflexiva": 7,
+    "Justiça Social & Interseccionalidade": 4,
+    "Negócios & Estratégia": 3,
+    "Liberdade Econômica & Finanças": 5,
+    "Cosmologia & Fronteiras da Ciência": 8,
+    "Estatística & Incerteza": 7,
+    "Engenharia de ML & MLOps": 8,
+    "Arquitetura de Sistemas Digitais": 5,
+    "Design & UX": 3,
+    "Noir & Engenharia do Mistério": 5,
+    "Comunicação & Influência": 6
+}
 
 def process_dataframe(df):
     """Limpa e processa o DataFrame."""
@@ -85,6 +86,11 @@ def process_dataframe(df):
     df.columns = [c.strip() for c in df.columns]
     
     missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    # Se faltar apenas a coluna '#', podemos adicionar como vazia
+    if "#" in missing:
+        df["#"] = pd.NA
+        missing.remove("#")
+        
     if missing:
          st.warning(f"Colunas no arquivo: {list(df.columns)}")
          return None, missing
@@ -98,6 +104,10 @@ def process_dataframe(df):
     if "Nota" in df.columns:
         df["Nota"] = pd.to_numeric(df["Nota"], errors='coerce').astype('Int64')
         
+    # Processar coluna de Ordem (#)
+    if "#" in df.columns:
+        df["#"] = pd.to_numeric(df["#"], errors='coerce').astype('Int64')
+
     # Recalcula Score sempre
     df['Score'] = df.apply(calcular_importancia_engine, axis=1).astype(int)
     
@@ -168,6 +178,20 @@ def update_book_status(title, new_status, rating=None, date=None, new_availabili
     df.to_csv(DATA_PATH, index=False)
     st.cache_data.clear()
     return True, "Livro atualizado com sucesso!"
+
+def delete_book(title):
+    """Remove um livro do CSV local."""
+    df = pd.read_csv(DATA_PATH)
+    
+    # Filtra removendo o titulo exato
+    new_df = df[df['Título'] != title]
+    
+    if len(new_df) == len(df):
+        return False, "Livro não encontrado para exclusão."
+        
+    new_df.to_csv(DATA_PATH, index=False)
+    st.cache_data.clear()
+    return True, f"Livro '{title}' excluído da lista."
 
 def get_ml_ready_data(df):
     """Prepara os dados especificamente para o modelo de Machine Learning."""

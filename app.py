@@ -24,5 +24,4 @@ st.markdown("""
 4.  **Conversor de PDF para Imagem**: Converte cada página de um PDF em arquivos de imagem (PNG/JPEG).
 5.  **Redimensionador de Imagens**: Ferramenta em lote para ajustar resolução de imagens.
 6.  **Transcritor de Áudio e Resumo**: Transcreve arquivos de áudio e gera um resumo consolidado usando IA (OpenAI).
-7.  **Histórico de Leitura**: Gestão completa de livros, metas e insights com IA.
 """)

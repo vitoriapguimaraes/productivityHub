@@ -1,6 +1,6 @@
 import os
 
-def get_tree_structure(path, prefix="", is_last=True, output_list=None):
+def get_tree_structure(path, prefix="", is_last=True, output_list=None, current_depth=0, max_depth=5, max_items=50):
     """
     Gera a estrutura de árvore de um diretório como uma lista de strings.
     Substitui a antiga `mostrar_estrutura_streamlit`.
@@ -9,7 +9,7 @@ def get_tree_structure(path, prefix="", is_last=True, output_list=None):
         output_list = []
         
     try:
-        if not os.path.exists(path):
+        if current_depth == 0 and not os.path.exists(path):
             return ["❌ Caminho não encontrado."]
 
         name = os.path.basename(path)
@@ -17,13 +17,33 @@ def get_tree_structure(path, prefix="", is_last=True, output_list=None):
         output_list.append(prefix + connector + name)
         
         if os.path.isdir(path):
-            items = sorted(os.listdir(path))
-            new_prefix = prefix + ("    " if is_last else "│   ")
-            
-            for i, item in enumerate(items):
-                full_path = os.path.join(path, item)
-                is_last_item = (i == len(items) - 1)
-                get_tree_structure(full_path, new_prefix, is_last_item, output_list)
+            if current_depth >= max_depth:
+                return output_list
+
+            try:
+                items = sorted(os.listdir(path))
+                original_count = len(items)
+                
+                has_hidden = False
+                if original_count > max_items:
+                    items = items[:max_items]
+                    has_hidden = True
+                
+                new_prefix = prefix + ("    " if is_last else "│   ")
+                
+                for i, item in enumerate(items):
+                    full_path = os.path.join(path, item)
+                    # If we have hidden items, the last visible item is NOT the last semantically
+                    is_last_item = (i == len(items) - 1) and not has_hidden
+                    
+                    get_tree_structure(full_path, new_prefix, is_last_item, output_list, current_depth + 1, max_depth, max_items)
+                
+                if has_hidden:
+                    remaining = original_count - max_items
+                    output_list.append(new_prefix + f"... e mais {remaining} itens ocultos")
+
+            except PermissionError:
+                output_list.append(prefix + ("    " if is_last else "│   ") + "⛔ [Acesso Negado]")
                 
     except PermissionError:
         output_list.append(prefix + "    ⛔ [Acesso Negado]")

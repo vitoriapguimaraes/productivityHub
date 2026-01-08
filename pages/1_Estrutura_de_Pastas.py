@@ -14,6 +14,9 @@ st.markdown("Visualize a hierarquia de qualquer diretório do seu sistema.")
 default_path = get_default_path()
 caminho_input = st.text_input("Caminho da Pasta", value=default_path, help="Copie e cole o caminho da pasta aqui.")
 
+if caminho_input:
+    caminho_input = caminho_input.strip().strip('"').strip("'")
+
 if st.button("Visualizar Estrutura 🔍", type="primary"):
     if not caminho_input:
         st.warning("Por favor, insira um caminho.")

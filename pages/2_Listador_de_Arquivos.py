@@ -14,6 +14,9 @@ st.markdown("Gera uma lista simples de arquivos contidos em uma pasta.")
 default_path = get_default_path()
 caminho_input = st.text_input("Caminho da Pasta", value=default_path)
 
+if caminho_input:
+    caminho_input = caminho_input.strip().strip('"').strip("'")
+
 if st.button("Listar Arquivos 📝", type="primary"):
     if not caminho_input:
         st.warning("Por favor, insira um caminho.")

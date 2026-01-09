@@ -17,6 +17,9 @@ caminho_input = st.text_input("Caminho da Pasta", value=default_path, help="Copi
 if caminho_input:
     caminho_input = caminho_input.strip().strip('"').strip("'")
 
+# Toggle para ícones
+use_icons = st.checkbox("🎨 Mostrar ícones de arquivo", value=False, help="Adiciona ícones baseados na extensão do arquivo")
+
 if st.button("Visualizar Estrutura 🔍", type="primary"):
     if not caminho_input:
         st.warning("Por favor, insira um caminho.")
@@ -28,7 +31,7 @@ if st.button("Visualizar Estrutura 🔍", type="primary"):
         st.success(f"📂 Lendo: `{os.path.abspath(caminho_input)}`")
         
         with st.spinner("Gerando árvore..."):
-            estrutura = get_tree_structure(caminho_input)
+            estrutura = get_tree_structure(caminho_input, use_icons=use_icons)
             texto_estrutura = "\n".join(estrutura)
             
         st.code(texto_estrutura, language="text")

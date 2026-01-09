@@ -1,6 +1,51 @@
 import os
 
-def get_tree_structure(path, prefix="", is_last=True, output_list=None, current_depth=0, max_depth=5, max_items=50):
+def get_file_icon(name, is_dir):
+    if is_dir:
+        return "📁 "
+    
+    ext = os.path.splitext(name)[1].lower()
+    
+    icons = {
+        ".py": "🐍 ",
+        ".js": "📜 ",
+        ".jsx": "⚛️ ",
+        ".ts": "📘 ",
+        ".tsx": "⚛️ ",
+        ".html": "🌐 ",
+        ".css": "🎨 ",
+        ".scss": "🎨 ",
+        ".md": "📝 ",
+        ".txt": "📄 ",
+        ".json": "⚙️ ",
+        ".yml": "🔧 ",
+        ".yaml": "🔧 ",
+        ".xml": "📰 ",
+        ".csv": "📊 ",
+        ".xls": "📊 ",
+        ".xlsx": "📊 ",
+        ".pdf": "📕 ",
+        ".png": "🖼️ ",
+        ".jpg": "🖼️ ",
+        ".jpeg": "🖼️ ",
+        ".gif": "🖼️ ",
+        ".svg": "🖼️ ",
+        ".zip": "📦 ",
+        ".rar": "📦 ",
+        ".tar": "📦 ",
+        ".gz": "📦 ",
+        ".exe": "🚀 ",
+        ".bat": "⚙️ ",
+        ".sh": "🐚 ",
+        ".dockerfile": "🐳 ",
+        "dockerfile": "🐳 ",
+        ".gitignore": "👁️ ",
+        "makefile": "🛠️ ",
+    }
+    
+    return icons.get(ext, "📄 ")
+
+def get_tree_structure(path, prefix="", is_last=True, output_list=None, current_depth=0, max_depth=5, max_items=50, use_icons=False):
     """
     Gera a estrutura de árvore de um diretório como uma lista de strings.
     Substitui a antiga `mostrar_estrutura_streamlit`.
@@ -13,8 +58,16 @@ def get_tree_structure(path, prefix="", is_last=True, output_list=None, current_
             return ["❌ Caminho não encontrado."]
 
         name = os.path.basename(path)
+        display_name = name
+        
+        if use_icons:
+            icon = get_file_icon(name, os.path.isdir(path))
+            display_name = f"{icon}{name}"
+        elif os.path.isdir(path):
+            display_name += "/"
+            
         connector = "└── " if is_last else "├── "
-        output_list.append(prefix + connector + name)
+        output_list.append(prefix + connector + display_name)
         
         if os.path.isdir(path):
             if current_depth >= max_depth:
@@ -36,7 +89,7 @@ def get_tree_structure(path, prefix="", is_last=True, output_list=None, current_
                     # If we have hidden items, the last visible item is NOT the last semantically
                     is_last_item = (i == len(items) - 1) and not has_hidden
                     
-                    get_tree_structure(full_path, new_prefix, is_last_item, output_list, current_depth + 1, max_depth, max_items)
+                    get_tree_structure(full_path, new_prefix, is_last_item, output_list, current_depth + 1, max_depth, max_items, use_icons)
                 
                 if has_hidden:
                     remaining = original_count - max_items

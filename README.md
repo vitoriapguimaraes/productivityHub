@@ -2,7 +2,7 @@
 
 > Uma aplicação unificada em Streamlit que reúne diversas ferramentas essenciais para automação de tarefas diárias, como manipulação de PDFs, gerenciamento de arquivos e transcrição de áudio com IA.
 
-![Demonstração do sistema](https://streamlit.io/images/brand/streamlit-mark-color.png) *Link para demonstração de imagem genérica, substitua por um print real do app.*
+![Demonstração do sistema](https://github.com/vitoriapguimaraes/productivityHub/blob/main/demo/navigation.gif)
 
 ## Funcionalidades Principais
 
@@ -67,7 +67,7 @@
 ## Estrutura de Diretórios
 
 ```
-/Python-ProductivityHub
+/productivityHub
 ├── .env                # Variáveis de ambiente (não versionado)
 ├── requirements.txt    # Dependências do projeto
 ├── README.md           # Documentação

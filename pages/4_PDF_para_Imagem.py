@@ -4,7 +4,7 @@ import sys
 
 # Adicionar root ao path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from utils.pdf_tools import convert_pdf_to_images_zip
+from utils.pdf_tools import convert_pdf_to_images
 
 st.set_page_config(page_title="PDF para Imagem", page_icon="🖼️", layout="wide")
 st.title("🖼️ Conversor de PDF para Imagem")
@@ -26,15 +26,29 @@ if uploaded_file:
                 pdf_bytes = uploaded_file.read()
                 
                 # Chamar utilitário
-                zip_data, total_pages = convert_pdf_to_images_zip(pdf_bytes, formato, dpi)
+                output_data, total_pages, ext_type = convert_pdf_to_images(pdf_bytes, formato, dpi)
                 
                 st.success(f"🎉 Conversão concluída! {total_pages} páginas processadas.")
                 
+                if ext_type == 'zip':
+                    mime_type = "application/zip"
+                    file_name = f"{os.path.splitext(uploaded_file.name)[0]}_imagens.zip"
+                    label = "📥 Baixar Imagens (ZIP)"
+                else:
+                    mime_type = f"image/{ext_type}" # image/png or image/jpeg
+                    # Se for jpg no retorno do util, ext_type é 'jpg', mas mime costuma ser jpeg.
+                    # Mas browsers aceitam image/jpg comumente. Vamos ajustar para ser seguro.
+                    if ext_type == 'jpg':
+                         mime_type = "image/jpeg"
+                    
+                    file_name = f"{os.path.splitext(uploaded_file.name)[0]}.{ext_type}"
+                    label = f"📥 Baixar Imagem ({ext_type.upper()})"
+
                 st.download_button(
-                    label="📥 Baixar Imagens (ZIP)",
-                    data=zip_data,
-                    file_name=f"{os.path.splitext(uploaded_file.name)[0]}_imagens.zip",
-                    mime="application/zip"
+                    label=label,
+                    data=output_data,
+                    file_name=file_name,
+                    mime=mime_type
                 )
                 
             except Exception as e:

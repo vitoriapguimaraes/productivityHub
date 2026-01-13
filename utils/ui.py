@@ -9,10 +9,4 @@ def render_footer():
         Desenvolvido por <a href="https://github.com/vitoriapguimaraes" target="_blank" style="color: #888; text-decoration: none;">github.com/vitoriapguimaraes</a>
     </div>
     """
-    
-    # Footer na página principal
-    st.markdown("---")
-    st.markdown(footer_html, unsafe_allow_html=True)
-
-    # Footer na sidebar
     st.sidebar.markdown(footer_html, unsafe_allow_html=True)

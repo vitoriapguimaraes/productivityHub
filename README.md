@@ -27,12 +27,14 @@
 ## Como Executar
 
 1. **Clone o repositório:**
+
    ```bash
-   git clone https://github.com/vitoriapguimaraes/Python-ProductivityHub.git
-   cd Python-ProductivityHub
+   git clone https://github.com/vitoriapguimaraes/productivityHub.git
+   cd productivityHub
    ```
 
 2. **Crie e ative um ambiente virtual (recomendado):**
+
    ```bash
    python -m venv venv
    # No Windows:
@@ -42,12 +44,14 @@
    ```
 
 3. **Instale as dependências:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Configure as Variáveis de Ambiente:**
    Crie um arquivo `.env` na raiz do projeto e adicione suas chaves:
+
    ```
    OPENAI_API_KEY=sua-chave-openai
    GROQ_API_KEY=sua-chave-groq
@@ -55,7 +59,7 @@
 
 5. **Execute o projeto:**
    ```bash
-   streamlit run app.py
+   streamlit run Home.py
    ```
 
 ## Como Usar
@@ -71,7 +75,7 @@
 ├── .env                # Variáveis de ambiente (não versionado)
 ├── requirements.txt    # Dependências do projeto
 ├── README.md           # Documentação
-├── app.py              # Ponto de entrada da aplicação
+├── Home.py             # Ponto de entrada da aplicação
 ├── assets/             # Recursos estáticos (capas, dados)
 ├── utils/              # Módulos utilitários
 │   └── library_manager.py # Lógica do histórico de leitura

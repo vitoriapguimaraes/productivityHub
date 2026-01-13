@@ -5,6 +5,7 @@ import sys
 # Adicionar root ao path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.pdf_tools import convert_pdf_to_images
+from utils.ui import render_footer
 
 st.set_page_config(page_title="PDF para Imagem", page_icon="🖼️", layout="wide")
 st.title("🖼️ Conversor de PDF para Imagem")
@@ -55,3 +56,5 @@ if uploaded_file:
                 st.error(f"❌ Erro durante a conversão: {e}")
 else:
     st.info("📄 Por favor, carregue um arquivo PDF para começar.")
+
+render_footer()

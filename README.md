@@ -91,7 +91,7 @@
 
 ## Status
 
-- 🌱 Em constante evolução
+🌱 Em constante evolução
 
 ## Mais Sobre Mim
 

@@ -5,6 +5,7 @@ import sys
 # Adicionar root ao path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.pdf_tools import merge_pdf_bytes
+from utils.ui import render_footer
 
 st.set_page_config(page_title="Unificador de PDFs", page_icon="🔗", layout="wide")
 st.title("🔗 Unificador de PDFs")
@@ -73,3 +74,5 @@ if uploaded_files:
                     st.error(f"❌ Erro na unificação: {e}")
 else:
     st.warning("Por favor, carregue um ou mais arquivos PDF.")
+
+render_footer()

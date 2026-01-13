@@ -1,4 +1,5 @@
 import streamlit as st
+from utils.ui import render_footer
 
 # Configuração da página
 st.set_page_config(
@@ -25,3 +26,5 @@ st.markdown("""
 5.  **Redimensionador de Imagens**: Ferramenta em lote para ajustar resolução de imagens.
 6.  **Transcritor de Áudio e Resumo**: Transcreve arquivos de áudio e gera um resumo consolidado usando IA (OpenAI).
 """)
+
+render_footer()

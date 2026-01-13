@@ -2,6 +2,12 @@ import streamlit as st
 from PIL import Image
 import io
 import zipfile
+import sys
+import os
+
+# Adicionar root ao path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.ui import render_footer
 
 st.set_page_config(page_title="Redimensionador de Imagens", page_icon="🖼️", layout="wide")
 
@@ -125,3 +131,5 @@ if uploaded_files:
                         mime=p_img["type"],
                         key=f"btn_{idx}"
                     )
+
+render_footer()

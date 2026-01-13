@@ -5,6 +5,7 @@ import sys
 # Adicionar root ao path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.file_system import get_tree_structure, get_default_path
+from utils.ui import render_footer
 
 st.set_page_config(page_title="Estrutura de Pastas", page_icon="📁", layout="wide")
 st.title("📁 Visualizador de Estrutura")
@@ -42,3 +43,5 @@ if st.button("Visualizar Estrutura 🔍", type="primary"):
             file_name="estrutura_pastas.txt",
             mime="text/plain"
         )
+
+render_footer()

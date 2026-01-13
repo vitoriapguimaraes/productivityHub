@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 # Adicionar root ao path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.audio_tools import transcribe_audio_file, generate_summary
+from utils.ui import render_footer
 
 # Carregar env
 load_dotenv()
@@ -72,3 +73,5 @@ if uploaded_files:
                     st.error(f"Erro no resumo: {e}")
 else:
     st.info("Carregue arquivos para começar.")
+
+render_footer()

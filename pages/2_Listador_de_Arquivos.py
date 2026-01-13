@@ -5,6 +5,7 @@ import sys
 # Adicionar root ao path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.file_system import list_files_in_dir, get_default_path
+from utils.ui import render_footer
 
 st.set_page_config(page_title="Listador de Arquivos", page_icon="📄", layout="wide")
 st.title("📄 Listador de Arquivos")
@@ -35,3 +36,5 @@ if st.button("Listar Arquivos 📝", type="primary"):
                 file_name="lista_arquivos.txt",
                 mime="text/plain"
             )
+
+render_footer()

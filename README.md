@@ -24,6 +24,13 @@
 - **Dados & Visualização**: [Pandas](https://pandas.pydata.org/), [Plotly](https://plotly.com/)
 - **Gerenciamento de Ambiente**: [python-dotenv](https://pypi.org/project/python-dotenv/)
 
+### Dependências do Sistema
+
+Para utilizar a ferramenta de **Conversor DOCX → MD**, é necessário instalar o **Pandoc**:
+
+- **Windows**: [Baixe o instalador .msi](https://pandoc.org/installing.html) e siga as instruções.
+- **Verificação**: Execute `pandoc --version` no terminal.
+
 ## Como Executar
 
 1. **Clone o repositório:**

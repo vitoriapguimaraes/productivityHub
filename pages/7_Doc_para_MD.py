@@ -104,6 +104,35 @@ def display_conversion_results(converted_files):
                 st.write(f"✅ {fname}")
 
 
+def process_uploaded_files(uploaded_files):
+    """Processa a lista de arquivos enviados e retorna a lista de convertidos."""
+    converted_files = []
+
+    # Barra de progresso se houver muitos arquivos
+    progress_bar = None
+    if len(uploaded_files) > 1:
+        progress_bar = st.progress(0)
+
+    for i, uploaded_file in enumerate(uploaded_files):
+        try:
+            filename, content = convert_single_docx(
+                uploaded_file.getvalue(), uploaded_file.name
+            )
+            converted_files.append((filename, content))
+
+        except FileNotFoundError:
+            st.error("Pandoc não encontrado! Verifique a instalação.")
+            break
+        except Exception as e:
+            st.error(f"Erro ao converter {uploaded_file.name}: {str(e)}")
+
+        # Atualizar barra de progresso
+        if progress_bar:
+            progress_bar.progress((i + 1) / len(uploaded_files))
+
+    return converted_files
+
+
 def main():
     st.set_page_config(page_title="Conversor DOCX → MD", page_icon="📝")
 
@@ -112,38 +141,30 @@ def main():
         "Converta arquivos Word (.docx) para Markdown (.md) de forma rápida e automática."
     )
 
+    # Inicializar chave do uploader no Session State
+    if "uploader_key" not in st.session_state:
+        st.session_state.uploader_key = 0
+
+    def reset_uploader():
+        """Incrementa a chave para resetar o componente file_uploader"""
+        st.session_state.uploader_key += 1
+
     # Upload dos arquivos
     uploaded_files = st.file_uploader(
-        "Escolha seus arquivos .docx", type="docx", accept_multiple_files=True
+        "Escolha seus arquivos .docx",
+        type="docx",
+        accept_multiple_files=True,
+        key=f"uploader_{st.session_state.uploader_key}",
     )
 
+    # Botão de limpar (só aparece se houver arquivos)
     if uploaded_files:
-        # Lista para guardar os resultados (nome, conteudo)
-        converted_files = []
+        st.button("🧹 Limpar arquivos carregados", on_click=reset_uploader)
 
-        # Barra de progresso se houver muitos arquivos
-        progress_bar = None
-        if len(uploaded_files) > 1:
-            progress_bar = st.progress(0)
+        # Processar arquivos
+        converted_files = process_uploaded_files(uploaded_files)
 
-        for i, uploaded_file in enumerate(uploaded_files):
-            try:
-                filename, content = convert_single_docx(
-                    uploaded_file.getvalue(), uploaded_file.name
-                )
-                converted_files.append((filename, content))
-
-            except FileNotFoundError:
-                st.error("Pandoc não encontrado! Verifique a instalação.")
-                break
-            except Exception as e:
-                st.error(f"Erro ao converter {uploaded_file.name}: {str(e)}")
-
-            # Atualizar barra de progresso
-            if progress_bar:
-                progress_bar.progress((i + 1) / len(uploaded_files))
-
-        # --- EXIBIÇÃO DOS RESULTADOS ---
+        # Exibir resultados
         display_conversion_results(converted_files)
 
 

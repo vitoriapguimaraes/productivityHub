@@ -10,9 +10,9 @@
 - **📄 Listador de Arquivos**: Geração de listas textuais de arquivos em diretórios, exportáveis para TXT.
 - **🔗 Unificador de PDFs**: Combinação simples e rápida de múltiplos arquivos PDF em um único documento.
 - **🖼️ Conversor de PDF para Imagem**: Transformação de páginas de PDF em imagens (PNG/JPEG) com ajuste de resolução.
-- **🎤 Transcritor de Áudio e Resumo**: Transcrição de arquivos de áudio utilizando o modelo Whisper da OpenAI e geração de resumos inteligentes com GPT-4o.
-- **📚 Histórico de Leitura**: Dashboard completo para gestão de livros, com análise de dados, IA (Groq) e mural de capas.
 - **🖼️ Redimensionador de Imagens**: Ferramenta prática para redimensionamento em lote (Batch Resize).
+- **🎤 Transcritor de Áudio e Resumo**: Transcrição de arquivos de áudio utilizando o modelo Whisper da OpenAI e geração de resumos inteligentes com GPT-4o.
+- **📝 Conversor de DOCX para MD**: Conversão de arquivos DOCX para Markdown (.md) com ajuda do Pandoc.
 
 ## Tecnologias Utilizadas
 
@@ -96,14 +96,14 @@ Para utilizar a ferramenta de **Conversor DOCX → MD**, é necessário instalar
     ├── 2_Listador_de_Arquivos.py
     ├── 3_Unificador_de_PDFs.py
     ├── 4_PDF_para_Imagem.py
-    ├── 5_Transcritor_de_Audio.py
-    ├── 6_Historico_Leitura.py
-    └── 7_Redimensionador_Imagens.py
+    ├── 5_Redimensionador_Imagens.py
+    ├── 6_Transcritor_de_Audio.py
+    └── 7_Doc_para_MD.py
 ```
 
 ## Status
 
-- 🌱 Em constante evolução
+🌱 Em constante evolução
 
 ## Mais Sobre Mim
 

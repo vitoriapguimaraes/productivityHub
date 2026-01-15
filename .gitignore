@@ -2,6 +2,6 @@
 __pycache__/
 *.pyc
 .vscode/
-.vscode/settings.json
 .flake8
 .editorconfig
+productivityHub.egg-info/

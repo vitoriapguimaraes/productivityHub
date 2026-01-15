@@ -1,9 +1,5 @@
 import streamlit as st
-import os
-import sys
 
-# Adicionar root ao path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.file_system import list_files_in_dir, get_default_path
 from utils.ui import render_footer
 
@@ -23,18 +19,18 @@ if st.button("Listar Arquivos 📝", type="primary"):
         st.warning("Por favor, insira um caminho.")
     else:
         files, report, error = list_files_in_dir(caminho_input)
-        
+
         if error:
             st.error(f"❌ {error}")
         else:
             st.success(f"✅ Sucesso! {len(files)} arquivo(s) encontrados.")
             st.text_area("Conteúdo da Lista", report, height=300)
-            
+
             st.download_button(
                 label="⬇️ Baixar Lista (.txt)",
                 data=report,
                 file_name="lista_arquivos.txt",
-                mime="text/plain"
+                mime="text/plain",
             )
 
 render_footer()

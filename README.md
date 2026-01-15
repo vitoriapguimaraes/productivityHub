@@ -52,12 +52,13 @@
 4. **Configure as Variáveis de Ambiente:**
    Crie um arquivo `.env` na raiz do projeto e adicione suas chaves:
 
-   ```
+   ```bash
    OPENAI_API_KEY=sua-chave-openai
    GROQ_API_KEY=sua-chave-groq
    ```
 
 5. **Execute o projeto:**
+
    ```bash
    streamlit run Home.py
    ```
@@ -70,7 +71,7 @@
 
 ## Estrutura de Diretórios
 
-```
+```bash
 /productivityHub
 ├── .env                # Variáveis de ambiente (não versionado)
 ├── requirements.txt    # Dependências do projeto
@@ -80,6 +81,7 @@
 ├── utils/              # Módulos utilitários
 │   ├── audio_tools.py
 │   ├── file_system.py
+│   ├── image_tools.py
 │   ├── pdf_tools.py
 │   └── ui.py
 └── pages/              # Páginas individuais das ferramentas

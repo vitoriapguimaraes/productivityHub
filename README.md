@@ -78,7 +78,10 @@
 ├── Home.py             # Ponto de entrada da aplicação
 ├── assets/             # Recursos estáticos (capas, dados)
 ├── utils/              # Módulos utilitários
-│   └── library_manager.py # Lógica do histórico de leitura
+│   ├── audio_tools.py
+│   ├── file_system.py
+│   ├── pdf_tools.py
+│   └── ui.py
 └── pages/              # Páginas individuais das ferramentas
     ├── 1_Estrutura_de_Pastas.py
     ├── 2_Listador_de_Arquivos.py
@@ -91,7 +94,7 @@
 
 ## Status
 
-🌱 Em constante evolução
+- 🌱 Em constante evolução
 
 ## Mais Sobre Mim
 

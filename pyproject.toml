@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "productivityHub"
+version = "0.1.0"
+description = "A productivity hub with various utility tools"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "Pillow",
+    "PyPDF2",
+    "pymupdf",
+    "openai",
+    "python-dotenv"
+]
+
+[tool.setuptools.packages.find]
+include = ["utils*"]

@@ -4,29 +4,49 @@ from utils.ui import render_footer
 # Configuração da página
 st.set_page_config(page_title="Utilitários Consolidados", page_icon="🛠️", layout="wide")
 
-# Título principal
 st.title("🛠️ Utilitários Consolidados")
-st.markdown(
-    "Bem-vindo ao seu aplicativo de utilidades unificado. Use o menu lateral para navegar entre as ferramentas disponíveis."
-)
-
-# Informações gerais
-st.header("Visão Geral das Ferramentas")
 st.markdown(
     """
 Este aplicativo consolida diversas ferramentas úteis para o seu dia a dia, organizadas por funcionalidade:"""
 )
-st.info("A navegação entre as ferramentas é feita através das páginas no menu lateral.")
-st.markdown(
-    """
-1.  **Visualizador de Estrutura de Pastas**: Exibe a hierarquia de arquivos e pastas de um diretório.
-2.  **Listador de Arquivos**: Gera uma lista de todos os arquivos em uma pasta e salva em um arquivo de texto.
-3.  **Unificador de PDFs**: Combina múltiplos arquivos PDF em um único documento.
-4.  **Conversor de PDF para Imagem**: Converte cada página de um PDF em arquivos de imagem (PNG/JPEG).
-5.  **Redimensionador de Imagens**: Ferramenta em lote para ajustar resolução de imagens.
-6.  **Transcritor de Áudio e Resumo**: Transcreve arquivos de áudio e gera um resumo consolidado usando IA (OpenAI).
-7.  **Conversor de DOCX para MD**: Converte arquivos Word (.docx) para Markdown (.md) de forma rápida e automática.
-"""
+st.info(
+    "A navegação entre as ferramentas é feita através das páginas na lista abaixo ou no menu lateral."
+)
+
+st.page_link(
+    "pages/1_Estrutura_de_Pastas.py",
+    label="Visualizador de Estrutura .................................. Exibe a hierarquia de arquivos e pastas.",
+    use_container_width=True,
+)
+st.page_link(
+    "pages/2_Listador_de_Arquivos.py",
+    label="Listador de Arquivos ....................................... Gera lista de arquivos em texto.",
+    use_container_width=True,
+)
+st.page_link(
+    "pages/3_Unificador_de_PDFs.py",
+    label="Unificador de PDFs ......................................... Combina múltiplos arquivos PDF.",
+    use_container_width=True,
+)
+st.page_link(
+    "pages/4_PDF_para_Imagem.py",
+    label="PDF para Imagem ............................................ Converte páginas de PDF em imagem.",
+    use_container_width=True,
+)
+st.page_link(
+    "pages/5_Redimensionador_Imagens.py",
+    label="Redimensionador de Imagens ................................... Ajusta resolução de imagens em lote.",
+    use_container_width=True,
+)
+st.page_link(
+    "pages/6_Transcritor_de_Audio.py",
+    label="Transcritor de Áudio ....................................... Transcreve áudio com IA.",
+    use_container_width=True,
+)
+st.page_link(
+    "pages/7_Doc_para_MD.py",
+    label="Conversor DOCX → MD ........................................ Converte Word para Markdown.",
+    use_container_width=True,
 )
 
 render_footer()

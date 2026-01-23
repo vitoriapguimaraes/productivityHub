@@ -2,13 +2,15 @@ import streamlit as st
 import os
 
 from utils.pdf_tools import convert_pdf_to_images
-from utils.ui import render_footer
+from utils.ui import render_footer, render_file_uploader
 
 st.set_page_config(page_title="PDF para Imagem", page_icon="🖼️", layout="wide")
 st.title("🖼️ Conversor de PDF para Imagem")
 st.markdown("Converte cada página de um arquivo PDF em imagens de alta qualidade.")
 
-uploaded_file = st.file_uploader("Escolha um arquivo PDF", type="pdf")
+uploaded_file = render_file_uploader(
+    "Escolha um arquivo PDF", type="pdf", key_prefix="pdf_to_img"
+)
 
 if uploaded_file:
     col1, col2 = st.columns(2)

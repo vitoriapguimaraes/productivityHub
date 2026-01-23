@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 from utils.pdf_tools import merge_pdf_bytes
-from utils.ui import render_footer
+from utils.ui import render_footer, render_file_uploader
 
 st.set_page_config(page_title="Unificador de PDFs", page_icon="🔗", layout="wide")
 st.title("🔗 Unificador de PDFs")
@@ -10,10 +10,11 @@ st.markdown(
     "Faça o upload de múltiplos arquivos PDF para combiná-los em um único documento."
 )
 
-uploaded_files = st.file_uploader(
+uploaded_files = render_file_uploader(
     "Escolha os arquivos PDF para unificar (em ordem)",
     type="pdf",
     accept_multiple_files=True,
+    key_prefix="pdf_merger",
 )
 
 if uploaded_files:

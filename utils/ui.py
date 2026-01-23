@@ -42,6 +42,40 @@ def render_folder_selector(label, default_path, key):
     return path_input
 
 
+def render_file_uploader(
+    label, type, accept_multiple_files=False, key_prefix="uploader", help=None
+):
+    """
+    Renderiza um file_uploader com botão de limpar integrado.
+    Retorna o(s) arquivo(s) carregado(s).
+    """
+    # Chave para controlar o reset do uploader
+    session_key = f"{key_prefix}_counter"
+
+    if session_key not in st.session_state:
+        st.session_state[session_key] = 0
+
+    def reset_uploader():
+        st.session_state[session_key] += 1
+
+    # Componente uploader
+    uploaded_files = st.file_uploader(
+        label,
+        type=type,
+        accept_multiple_files=accept_multiple_files,
+        key=f"{key_prefix}_{st.session_state[session_key]}",
+        help=help,
+    )
+
+    # Botão de reset (se houver arquivos)
+    if uploaded_files:
+        st.button(
+            "🧹 Limpar arquivos", key=f"{key_prefix}_clean_btn", on_click=reset_uploader
+        )
+
+    return uploaded_files
+
+
 def render_footer():
     """
     Renderiza o footer minimalista na página principal e na sidebar.

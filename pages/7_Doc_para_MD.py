@@ -5,6 +5,8 @@ import tempfile
 import zipfile
 import io
 
+from utils.ui import render_file_uploader
+
 
 def convert_single_docx(file_bytes, original_filename):
     """
@@ -141,26 +143,16 @@ def main():
         "Converta arquivos Word (.docx) para Markdown (.md) de forma rápida e automática."
     )
 
-    # Inicializar chave do uploader no Session State
-    if "uploader_key" not in st.session_state:
-        st.session_state.uploader_key = 0
-
-    def reset_uploader():
-        """Incrementa a chave para resetar o componente file_uploader"""
-        st.session_state.uploader_key += 1
-
     # Upload dos arquivos
-    uploaded_files = st.file_uploader(
+    uploaded_files = render_file_uploader(
         "Escolha seus arquivos .docx",
         type="docx",
         accept_multiple_files=True,
-        key=f"uploader_{st.session_state.uploader_key}",
+        key_prefix="docx_to_md",
     )
 
     # Botão de limpar (só aparece se houver arquivos)
     if uploaded_files:
-        st.button("🧹 Limpar arquivos carregados", on_click=reset_uploader)
-
         # Processar arquivos
         converted_files = process_uploaded_files(uploaded_files)
 

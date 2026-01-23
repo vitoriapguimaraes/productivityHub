@@ -4,14 +4,14 @@ import os
 from dotenv import load_dotenv
 
 from utils.audio_tools import transcribe_audio_file, generate_summary
-from utils.ui import render_footer
+from utils.ui import render_footer, render_file_uploader
 
 # Carregar env
 load_dotenv()
 
 st.set_page_config(page_title="Transcritor de Áudio", page_icon="🎤", layout="wide")
 st.title("🎤 Transcritor & Resumo (AI)")
-st.markdown("Transcreva áudios e gere insights automáticos com OpenAI Whisper & GPT-4.")
+st.markdown("Transcreve áudios e gere insights automáticos com OpenAI Whisper & GPT-4.")
 
 # Verificar se a chave da API está disponível
 api_key = os.getenv("OPENAI_API_KEY")
@@ -20,10 +20,11 @@ if not api_key:
     st.error("❌ ERRO: `OPENAI_API_KEY` não encontrada no arquivo .env")
     st.stop()
 
-uploaded_files = st.file_uploader(
+uploaded_files = render_file_uploader(
     "Arquivos de Áudio (mp3, wav, m4a, ogg)",
     type=["mp3", "wav", "m4a", "ogg", "flac"],
     accept_multiple_files=True,
+    key_prefix="audio_transcriber",
 )
 
 if uploaded_files:

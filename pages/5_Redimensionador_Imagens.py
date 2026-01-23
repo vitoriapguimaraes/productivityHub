@@ -3,7 +3,7 @@ import streamlit as st
 import io
 import zipfile
 
-from utils.ui import render_footer
+from utils.ui import render_footer, render_file_uploader
 from utils.image_tools import process_image_resize
 
 
@@ -86,10 +86,12 @@ st.title("🖼️ Redimensionador de Imagens em Lote")
 st.markdown("Reduza ou aumente a resolução das suas imagens de forma rápida e prática.")
 
 # --- UPLOAD ---
-uploaded_files = st.file_uploader(
+# --- UPLOAD ---
+uploaded_files = render_file_uploader(
     "Arraste suas imagens aqui (JPG, PNG, WEBP)",
     type=["png", "jpg", "jpeg", "webp"],
     accept_multiple_files=True,
+    key_prefix="img_resizer",
 )
 
 

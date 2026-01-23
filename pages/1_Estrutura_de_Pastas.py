@@ -2,7 +2,7 @@ import streamlit as st
 import os
 
 from utils.file_system import get_tree_structure, get_default_path
-from utils.ui import render_footer
+from utils.ui import render_footer, render_folder_selector
 
 st.set_page_config(page_title="Estrutura de Pastas", page_icon="📁", layout="wide")
 st.title("📁 Visualizador de Estrutura")
@@ -10,12 +10,9 @@ st.markdown("Visualize a hierarquia de qualquer diretório do seu sistema.")
 
 # Input com default inteligente
 default_path = get_default_path()
-caminho_input = st.text_input(
-    "Caminho da Pasta", value=default_path, help="Copie e cole o caminho da pasta aqui."
+caminho_input = render_folder_selector(
+    "Caminho da Pasta", default_path, "estrutura_path"
 )
-
-if caminho_input:
-    caminho_input = caminho_input.strip().strip('"').strip("'")
 
 # Toggle para ícones
 use_icons = st.checkbox(

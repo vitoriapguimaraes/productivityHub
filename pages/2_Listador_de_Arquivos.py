@@ -1,7 +1,7 @@
 import streamlit as st
 
 from utils.file_system import list_files_in_dir, get_default_path
-from utils.ui import render_footer
+from utils.ui import render_footer, render_folder_selector
 
 st.set_page_config(page_title="Listador de Arquivos", page_icon="📄", layout="wide")
 st.title("📄 Listador de Arquivos")
@@ -9,10 +9,7 @@ st.markdown("Gera uma lista simples de arquivos contidos em uma pasta.")
 
 # Input
 default_path = get_default_path()
-caminho_input = st.text_input("Caminho da Pasta", value=default_path)
-
-if caminho_input:
-    caminho_input = caminho_input.strip().strip('"').strip("'")
+caminho_input = render_folder_selector("Caminho da Pasta", default_path, "folder_path")
 
 if st.button("Listar Arquivos 📝", type="primary"):
     if not caminho_input:

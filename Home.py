@@ -24,8 +24,8 @@ st.page_link(
     use_container_width=True,
 )
 st.page_link(
-    "pages/3_Unificador_de_PDFs.py",
-    label="Unificador de PDFs ......................................... Combina múltiplos arquivos PDF.",
+    "pages/3_Editor_de_PDFs.py",
+    label="Editor de PDFs ......................................... Combina múltiplos arquivos PDF.",
     use_container_width=True,
 )
 st.page_link(
